@@ -1,0 +1,7 @@
+template_id = "123e4567-e89b-12d3-a456-426614174001"
+dockerfile = "e2b.Dockerfile"
+template_name = "shiny-python-developer"
+start_cmd = "cd /home/user && shiny run app.py --host 0.0.0.0 --port 8000"
+cpu_count = 4
+memory_mb = 4096
+port = 8000

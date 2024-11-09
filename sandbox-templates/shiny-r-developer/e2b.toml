@@ -1,0 +1,7 @@
+template_id = "123e4567-e89b-12d3-a456-426614174000"
+dockerfile = "e2b.Dockerfile"
+template_name = "shiny-developer"
+start_cmd = "cd /home/user && R -e \"shiny::runApp('app.R', host = '0.0.0.0', port = 3838)\""
+cpu_count = 4
+memory_mb = 4096
+port = 3838
